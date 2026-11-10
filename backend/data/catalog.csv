@@ -1,0 +1,16 @@
+sku,name,tags,pack_size,price_cents,recycled,supplier
+CUP-R-50,Recycled paper cups,paper cup|cup|coffee cup,50,1200,1,Roaster's Supply Co.
+CUP-P-50,Plain paper cups,paper cup|cup|coffee cup|plain paper cup,50,800,0,Roaster's Supply Co.
+BOX-R-25,Recycled takeaway containers,takeaway container|takeout container|container,25,1500,1,Roaster's Supply Co.
+BOX-F-25,Foam takeaway containers,takeaway container|takeout container|container|foam container,25,900,0,Roaster's Supply Co.
+LID-R-50,Recycled cup lids,lid|cup lid,50,600,1,Roaster's Supply Co.
+NAP-R-100,Recycled napkins,napkin|serviette,100,700,1,Roaster's Supply Co.
+STR-P-100,Paper straws,straw|paper straw,100,500,1,Roaster's Supply Co.
+BAG-R-50,Recycled carrier bags,carrier bag|shopping bag|paper bag,50,1100,1,Roaster's Supply Co.
+SLE-R-50,Recycled cup sleeves,cup sleeve|sleeve,50,800,1,Roaster's Supply Co.
+COF-1KG,House coffee beans,coffee|coffee bean|coffee bag|bean,1,1800,0,Roaster's Supply Co.
+TEA-50,Tea bags,tea|tea bag,50,900,0,Roaster's Supply Co.
+MLK-12,Oat milk,oat milk|milk|milk carton,12,2200,0,Roaster's Supply Co.
+SUG-1KG,Cane sugar,sugar,1,400,0,Roaster's Supply Co.
+TWL-50,Recycled paper towels,paper towel|towel,50,1400,1,Roaster's Supply Co.
+GLV-100,Nitrile gloves,glove|nitrile glove,100,1600,0,Roaster's Supply Co.
