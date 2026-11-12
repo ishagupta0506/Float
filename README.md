@@ -15,7 +15,7 @@ The model reads the request. The server decides the money.
 
 **Live Demo:** [float-5i3z.onrender.com](https://float-5i3z.onrender.com)
 
-**YouTube Demo:** Coming soon
+**YouTube Demo:** **YouTube Demo:** [Watch Float Demo](https://youtu.be/WM2G-IXtx1c)
 
 **Repository:** [github.com/ishagupta0506/Float](https://github.com/ishagupta0506/Float)
 
