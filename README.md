@@ -115,6 +115,19 @@ flowchart LR
 | SQLite | `backend/data/float.db`. Shifts, invoices, carts, and an audit list. Created on startup if it is missing. |
 | PayPal | Two sandbox REST apps. The café app uses Invoicing v2. The supplier app uses Orders v2. |
 
+### Deployment — Render
+
+Float is deployed as a Render Web Service.
+
+- **Hosting:** Render
+- **Backend:** FastAPI served using Uvicorn.
+- **Frontend:** React production build served through FastAPI.
+- **Build:** Vite builds the frontend assets, which are served from the FastAPI static directory.
+- **Configuration:** Environment variables are managed through Render's environment settings.
+- **Live Application:** [https://float-5i3z.onrender.com](https://float-5i3z.onrender.com)
+
+The deployed application uses Render's free instance. Its SQLite database uses ephemeral storage, so demo data may reset when the service restarts or spins down. All payment operations use PayPal Sandbox.
+
 ## Gemini and financial safety
 
 Gemini's job is to turn a sentence into a small JSON object: product words, an optional catalog SKU, a quantity, a unit, a budget, a recycled preference, and whether the owner asked to wait for an invoice. The catalog sent with that call has SKUs, names, pack sizes, and a recycled flag. It has no prices.
